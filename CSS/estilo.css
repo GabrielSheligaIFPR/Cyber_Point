@@ -1,0 +1,245 @@
+/*Arquivo CSS*/
+
+/*Body*/
+
+body {
+    font-family: 'Segoe UI';
+}
+
+/*--*/
+
+/*Imagens*/
+
+.gif {
+    margin-top: 20px;
+    width: 20%;
+    height: 20%;
+    border: 2px solid gray;
+}
+
+.img_cabecalho {
+    text-align: center;
+    border: 3.5px dashed black;
+    width: 80%;
+    height: 35%;
+    margin-bottom: 20px;
+}
+
+.imagem_saiba_mais {
+    border: 2px dashed black;
+}
+
+.imagem {
+    width: 80px;
+    height: 80px;
+}
+
+/*--*/
+
+.div{
+    justify-self: center;
+    text-align: center;
+    border: 2px solid black;
+    width: 50%;
+    height: 72%;
+}
+
+.div_suporte{
+    justify-self: center;
+    text-align: center;
+    border: 2px solid black;
+    width: 50%;
+    height: 75%;
+}
+
+.div_pg_inicial {
+    justify-self: center;
+    text-align: center;
+    border-style: outset;
+    width: 50%;
+    height: 70%;
+}
+
+.div_menu {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+    height: 55%;
+    width: 25%;
+    justify-self: center;
+    text-align: center;
+}
+
+.div_tb {
+    justify-items: center;
+}
+
+.div_pr_final {
+    justify-items: center;
+    text-align: center;
+    justify-self: center;
+}
+
+
+.c_usuario{
+    justify-self: center;
+    text-align: center;
+    border: 2px solid black;
+    width: 50%;
+    height: 70%;
+}
+
+.formulario_c_us {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+    height: 65%;
+    width: 25%;
+    justify-self: center;
+}
+
+.formulario {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+    height: 35%;
+    width: 25%;
+    justify-self: center;
+}
+
+.pg_links_link {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+}
+
+.botao_link:hover{
+    transform: scale(1.2);
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover {
+    color: gray;
+}
+
+
+.formulario_suporte {
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    padding: 10px;
+    height: 40%;
+    width: 25%;
+    justify-self: center;
+}
+
+.formulario_produto {
+    margin-top: 20px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    height: 75%;
+    width: 35%;
+    justify-self: center;
+    text-align: center;
+}
+
+.botao{
+    margin-left: 4%;
+}
+
+.botao:hover{
+    transform: scale(1.2);
+}
+
+.botao_suporte {
+    margin-left: 1.2%;
+}
+
+.botao_suporte:hover{
+    transform: scale(1.2);
+}
+
+
+.botao_pg_normal:hover{
+    transform: scale(1.2);
+}
+
+.botao_confirmar:hover{
+    transform: scale(1.2);
+    margin-left: 5 px;
+}
+
+.botao_p{
+    margin-top: 2%;
+    width: 10%;
+    height: 5%;
+    justify-self: center;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.botao_p:hover{
+    transform: scale(1.05);
+    border: 2.5px dashed black;
+}
+
+.entrada_dados{
+    border: 2px dashed black;
+}
+
+.tabela, tr, td{
+    border: 1.5px solid black;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.categoria {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.saiba_mais_produto {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+.rodape {
+    position: absolute;
+    text-align: center;
+    bottom: 1px;
+    width: 15%;
+    animation: pulse 2s infinite;
+    border: 2px dashed gray;
+    }
+    @keyframes pulse {
+    0% {
+    transform: scale(1);
+    }
+    40% {
+    transform: scale(1.05);
+    }
+    65% {
+    transform: scale(1);
+    }
+}
+
+.rodape_produtos {
+    width: 100%;
+    animation: pulse 2s infinite;
+    border: 2px dashed gray;
+    }
+    @keyframes pulse {
+    0% {
+    transform: scale(1);
+    }
+    40% {
+    transform: scale(1.05);
+    }
+    65% {
+    transform: scale(1);
+    }
+}
